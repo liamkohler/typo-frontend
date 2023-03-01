@@ -112,6 +112,7 @@ audio {
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 30px;
+  visibility: hidden;
 }
 
 .bouton-menu {
@@ -119,6 +120,7 @@ audio {
   background-color: rgba(200, 65, 65, 0.15);
   margin: 0 -50px;
   padding: 5px;
+  visibility: visible;
 }
 
 .bouton-menu a {
