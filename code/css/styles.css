@@ -1,0 +1,167 @@
+:root {
+  --red: #c74040;
+}
+
+html {
+  scroll-behavior: smooth;
+  border-width: 4px 0;
+  border-style: solid;
+  border-color: var(--red);
+}
+
+body {
+  max-width: 320px;
+  margin: auto;
+  background-image: url(../img/fond.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 405px;
+  color: var(--red);
+}
+
+header,
+main,
+footer {
+  max-width: 250px;
+  margin: auto;
+  border-style: solid;
+  border-width: 0 4px;
+  border-color: var(--red);
+}
+
+footer {
+  text-align: center;
+  border-style: solid;
+  border-width: 20px 4px 0 4px;
+  border-color: var(--red);
+}
+
+
+h1 {
+  margin: 0;
+  background-color: #9a9a9a;
+  border-width: 0 0 4px 0;
+  border-style: solid;
+  border-color: var(--red);
+}
+
+h2 {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  border-width: 20px 0 4px 0;
+  border-style: solid;
+  border-color: var(--red);
+}
+
+h3 {
+  font-family: 'Chakra Petch', sans-serif;
+  margin: 0;
+  font-size: 15px;
+}
+
+footer div {
+  margin: 10px 40px;
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  border-color: var(--red);
+}
+
+p {
+  font-family: 'Nova Square', sans-serif;
+  margin: 0;
+  font-size: 17px;
+}
+
+main p {
+  padding: 20px;
+}
+
+footer p {
+  padding: 10px;
+  font-size: 14px;
+}
+
+a {
+  color: var(--red);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+
+audio {
+  padding: 20px 0;
+  width: 250px;
+}
+
+.container {
+  width: 244px;
+  max-height: 550px;
+  margin: 3px;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 20px;
+  position: fixed;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.bouton-menu {
+  border: 2px solid var(--red);
+  background-color: rgba(200, 65, 65, 0.15);
+  margin: 0 -50px;
+  padding: 5px;
+}
+
+.bouton-menu a {
+  text-decoration: none;
+}
+
+.rite {
+  align-self: flex-end;
+}
+
+.fleche-noir {
+ background-color: rgba(200, 65, 65, 0.15);
+ border-width: 4px 0 0 0;
+ border-style: solid;
+ border-color: var(--red);
+}
+
+.legande p {
+  padding: 0;
+  font-size: 13px;
+  margin: 10px 50px 0 20px;
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  border-color: var(--red);
+}
+
+.logo {
+  width: 100px;
+}
+
+.under-logo,
+.email {
+  font-family: sans-serif;
+  color: #000;
+  font-weight: 900;
+}
+
+.email {
+  font-size: 12px;
+  margin: 20px;
+}
+
+.last {
+  margin: 0 40px 20px 40px;
+  border: none;
+}
