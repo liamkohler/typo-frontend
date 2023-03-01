@@ -5,25 +5,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Nova+Square&display=swap" rel="stylesheet">
   <title>metropolis</title>
 </head>
   <body>
     <header>
       <div>
         <nav class="container">
-          <div class="bouton-compositeur">
+          <div class="bouton-menu bouton-compositeur">
             <a href="#compositeur">COMPOSITEUR</a>
           </div>
-          <div class="bouton-univers">
+          <div class="bouton-menu bouton-univers">
             <a href="#univers">UNIVERS</a>
           </div>
-          <div class="fleche-rouge">
+          <div class="bouton-menu fleche-rouge rite">
             <a href="#haut"><img src="img/fleche-haut-rouge.webp"></a>
           </div>
-          <div class="synopsis">
+          <div class="bouton-menu bouton-synopsis rite">
             <a href="#synopsis">SYNOPSIS</a>
           </div>
-          <div class="musique">
+          <div class="bouton-menu bouton-musique rite">
             <a href="#musique">MUSIQUE</a>
           </div>
         </nav>
@@ -32,7 +37,9 @@
         <img id="haut" src="img/matropolis-logo.webp">
       </h1>
       <img src="img/metropolis_portrait_long.png">
-      <a href="#compositeur"><img src="img/fleche-bas-noir.svg"></a>
+      <a href="#compositeur">
+        <img src="img/fleche-bas-noir.svg" class="fleche-noir">
+      </a>
     </header>
     <main>
       <div>
@@ -101,19 +108,23 @@
       </div>
       <div>
         <h3>Compositeur</h3>
-        <p>Gottfried Huppertz</p>
+        <p>Gottfried<br>Huppertz</p>
       </div>
-      <div>
+      <div class="last">
         <h3>
           <a href="https://eikon.ch" target="_blank">
-            <img src="img/eikon.png">
+            <img  class="logo" src="img/eikon.png">
           </a>
         </h3>
-        <p>IMD11</p>
-        <p>Liam Kohler</p>
-        <a href="mailto:liam.kohler@studentfr.ch">liam.kohler@studentfr.ch</a>
+        <p class="under-logo">IMD11</p>
+        <p class="under-logo">Liam<br>Kohler</p>
+        <a class="email" href="mailto:liam.kohler@studentfr.ch">
+          liam.kohler@studentfr.ch
+        </a>
       </div>
-      <a href="#haut"><img src="img/fleche-haut-noir.svg"></a>
+      <a href="#haut">
+        <img src="img/fleche-haut-noir.svg" class="fleche-noir">
+      </a>
     </footer>
   </body>
 </html>
